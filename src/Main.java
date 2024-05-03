@@ -1,6 +1,5 @@
 import java.awt.AWTException;
 
-// Test
 public class Main {
     public static void main(String[] args) {
         try {
