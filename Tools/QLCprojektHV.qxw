@@ -1,0 +1,1986 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.13.0</Version>
+  <Author>philipp</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <BeatGenerator BeatType="Disabled" BPM="0"/>
+   <Universe Name="Universe 1" ID="0">
+    <Output Plugin="DMX USB" UID="FT232R USB UART (S/N: B002Z6SP)" Line="0">
+     <PluginParameters UniverseChannels="510"/>
+    </Output>
+   </Universe>
+   <Universe Name="Universe 2" ID="1"/>
+   <Universe Name="Universe 3" ID="2"/>
+   <Universe Name="Universe 4" ID="3"/>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>0</ID>
+   <Name>Generic RGB #001</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>1</ID>
+   <Name>Generic RGB #002</Name>
+   <Universe>0</Universe>
+   <Address>3</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>2</ID>
+   <Name>Generic RGB #003</Name>
+   <Universe>0</Universe>
+   <Address>6</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>3</ID>
+   <Name>Generic RGB #004</Name>
+   <Universe>0</Universe>
+   <Address>9</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>4</ID>
+   <Name>Generic RGB #005</Name>
+   <Universe>0</Universe>
+   <Address>12</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>5</ID>
+   <Name>Generic RGB #006</Name>
+   <Universe>0</Universe>
+   <Address>15</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>6</ID>
+   <Name>Generic RGB #007</Name>
+   <Universe>0</Universe>
+   <Address>18</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>7</ID>
+   <Name>Generic RGB #008</Name>
+   <Universe>0</Universe>
+   <Address>21</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>8</ID>
+   <Name>Generic RGB #009</Name>
+   <Universe>0</Universe>
+   <Address>24</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>9</ID>
+   <Name>Generic RGB #010</Name>
+   <Universe>0</Universe>
+   <Address>27</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>10</ID>
+   <Name>Generic RGB #011</Name>
+   <Universe>0</Universe>
+   <Address>30</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>11</ID>
+   <Name>Generic RGB #012</Name>
+   <Universe>0</Universe>
+   <Address>33</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>12</ID>
+   <Name>Generic RGB #013</Name>
+   <Universe>0</Universe>
+   <Address>36</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>13</ID>
+   <Name>Generic RGB #014</Name>
+   <Universe>0</Universe>
+   <Address>39</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>14</ID>
+   <Name>Generic RGB #015</Name>
+   <Universe>0</Universe>
+   <Address>42</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>15</ID>
+   <Name>Generic RGB #016</Name>
+   <Universe>0</Universe>
+   <Address>45</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>16</ID>
+   <Name>Generic RGB #017</Name>
+   <Universe>0</Universe>
+   <Address>48</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>17</ID>
+   <Name>Generic RGB #018</Name>
+   <Universe>0</Universe>
+   <Address>51</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>18</ID>
+   <Name>Generic RGB #019</Name>
+   <Universe>0</Universe>
+   <Address>54</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>19</ID>
+   <Name>Generic RGB #020</Name>
+   <Universe>0</Universe>
+   <Address>57</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>20</ID>
+   <Name>Generic RGB #021</Name>
+   <Universe>0</Universe>
+   <Address>60</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>21</ID>
+   <Name>Generic RGB #022</Name>
+   <Universe>0</Universe>
+   <Address>63</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>22</ID>
+   <Name>Generic RGB #023</Name>
+   <Universe>0</Universe>
+   <Address>66</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>23</ID>
+   <Name>Generic RGB #024</Name>
+   <Universe>0</Universe>
+   <Address>69</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>24</ID>
+   <Name>Generic RGB #025</Name>
+   <Universe>0</Universe>
+   <Address>72</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>25</ID>
+   <Name>Generic RGB #026</Name>
+   <Universe>0</Universe>
+   <Address>75</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>26</ID>
+   <Name>Generic RGB #027</Name>
+   <Universe>0</Universe>
+   <Address>78</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>27</ID>
+   <Name>Generic RGB #028</Name>
+   <Universe>0</Universe>
+   <Address>81</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>28</ID>
+   <Name>Generic RGB #029</Name>
+   <Universe>0</Universe>
+   <Address>84</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>29</ID>
+   <Name>Generic RGB #030</Name>
+   <Universe>0</Universe>
+   <Address>87</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>30</ID>
+   <Name>Generic RGB #031</Name>
+   <Universe>0</Universe>
+   <Address>90</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>31</ID>
+   <Name>Generic RGB #032</Name>
+   <Universe>0</Universe>
+   <Address>93</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>32</ID>
+   <Name>Generic RGB #033</Name>
+   <Universe>0</Universe>
+   <Address>96</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>33</ID>
+   <Name>Generic RGB #034</Name>
+   <Universe>0</Universe>
+   <Address>99</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>34</ID>
+   <Name>Generic RGB #035</Name>
+   <Universe>0</Universe>
+   <Address>102</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>35</ID>
+   <Name>Generic RGB #036</Name>
+   <Universe>0</Universe>
+   <Address>105</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>36</ID>
+   <Name>Generic RGB #037</Name>
+   <Universe>0</Universe>
+   <Address>108</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>37</ID>
+   <Name>Generic RGB #038</Name>
+   <Universe>0</Universe>
+   <Address>111</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>38</ID>
+   <Name>Generic RGB #039</Name>
+   <Universe>0</Universe>
+   <Address>114</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>39</ID>
+   <Name>Generic RGB #040</Name>
+   <Universe>0</Universe>
+   <Address>117</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>40</ID>
+   <Name>Generic RGB #041</Name>
+   <Universe>0</Universe>
+   <Address>120</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>41</ID>
+   <Name>Generic RGB #042</Name>
+   <Universe>0</Universe>
+   <Address>123</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>42</ID>
+   <Name>Generic RGB #043</Name>
+   <Universe>0</Universe>
+   <Address>126</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>43</ID>
+   <Name>Generic RGB #044</Name>
+   <Universe>0</Universe>
+   <Address>129</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>44</ID>
+   <Name>Generic RGB #045</Name>
+   <Universe>0</Universe>
+   <Address>132</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>45</ID>
+   <Name>Generic RGB #046</Name>
+   <Universe>0</Universe>
+   <Address>135</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>46</ID>
+   <Name>Generic RGB #047</Name>
+   <Universe>0</Universe>
+   <Address>138</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>47</ID>
+   <Name>Generic RGB #048</Name>
+   <Universe>0</Universe>
+   <Address>141</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>48</ID>
+   <Name>Generic RGB #049</Name>
+   <Universe>0</Universe>
+   <Address>144</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>49</ID>
+   <Name>Generic RGB #050</Name>
+   <Universe>0</Universe>
+   <Address>147</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>50</ID>
+   <Name>Generic RGB #051</Name>
+   <Universe>0</Universe>
+   <Address>150</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>51</ID>
+   <Name>Generic RGB #052</Name>
+   <Universe>0</Universe>
+   <Address>153</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>52</ID>
+   <Name>Generic RGB #053</Name>
+   <Universe>0</Universe>
+   <Address>156</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>53</ID>
+   <Name>Generic RGB #054</Name>
+   <Universe>0</Universe>
+   <Address>159</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>54</ID>
+   <Name>Generic RGB #055</Name>
+   <Universe>0</Universe>
+   <Address>162</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>55</ID>
+   <Name>Generic RGB #056</Name>
+   <Universe>0</Universe>
+   <Address>165</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>56</ID>
+   <Name>Generic RGB #057</Name>
+   <Universe>0</Universe>
+   <Address>168</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>57</ID>
+   <Name>Generic RGB #058</Name>
+   <Universe>0</Universe>
+   <Address>171</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>58</ID>
+   <Name>Generic RGB #059</Name>
+   <Universe>0</Universe>
+   <Address>174</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>59</ID>
+   <Name>Generic RGB #060</Name>
+   <Universe>0</Universe>
+   <Address>177</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>60</ID>
+   <Name>Generic RGB #061</Name>
+   <Universe>0</Universe>
+   <Address>180</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>61</ID>
+   <Name>Generic RGB #062</Name>
+   <Universe>0</Universe>
+   <Address>183</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>62</ID>
+   <Name>Generic RGB #063</Name>
+   <Universe>0</Universe>
+   <Address>186</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>63</ID>
+   <Name>Generic RGB #064</Name>
+   <Universe>0</Universe>
+   <Address>189</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>64</ID>
+   <Name>Generic RGB #065</Name>
+   <Universe>0</Universe>
+   <Address>192</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>65</ID>
+   <Name>Generic RGB #066</Name>
+   <Universe>0</Universe>
+   <Address>195</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>66</ID>
+   <Name>Generic RGB #067</Name>
+   <Universe>0</Universe>
+   <Address>198</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>67</ID>
+   <Name>Generic RGB #068</Name>
+   <Universe>0</Universe>
+   <Address>201</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>68</ID>
+   <Name>Generic RGB #069</Name>
+   <Universe>0</Universe>
+   <Address>204</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>69</ID>
+   <Name>Generic RGB #070</Name>
+   <Universe>0</Universe>
+   <Address>207</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>70</ID>
+   <Name>Generic RGB #071</Name>
+   <Universe>0</Universe>
+   <Address>210</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>71</ID>
+   <Name>Generic RGB #072</Name>
+   <Universe>0</Universe>
+   <Address>213</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>72</ID>
+   <Name>Generic RGB #073</Name>
+   <Universe>0</Universe>
+   <Address>216</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>73</ID>
+   <Name>Generic RGB #074</Name>
+   <Universe>0</Universe>
+   <Address>219</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>74</ID>
+   <Name>Generic RGB #075</Name>
+   <Universe>0</Universe>
+   <Address>222</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>75</ID>
+   <Name>Generic RGB #076</Name>
+   <Universe>0</Universe>
+   <Address>225</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>76</ID>
+   <Name>Generic RGB #077</Name>
+   <Universe>0</Universe>
+   <Address>228</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>77</ID>
+   <Name>Generic RGB #078</Name>
+   <Universe>0</Universe>
+   <Address>231</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>78</ID>
+   <Name>Generic RGB #079</Name>
+   <Universe>0</Universe>
+   <Address>234</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>79</ID>
+   <Name>Generic RGB #080</Name>
+   <Universe>0</Universe>
+   <Address>237</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>80</ID>
+   <Name>Generic RGB #081</Name>
+   <Universe>0</Universe>
+   <Address>240</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>81</ID>
+   <Name>Generic RGB #082</Name>
+   <Universe>0</Universe>
+   <Address>243</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>82</ID>
+   <Name>Generic RGB #083</Name>
+   <Universe>0</Universe>
+   <Address>246</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>83</ID>
+   <Name>Generic RGB #084</Name>
+   <Universe>0</Universe>
+   <Address>249</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>84</ID>
+   <Name>Generic RGB #085</Name>
+   <Universe>0</Universe>
+   <Address>252</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>85</ID>
+   <Name>Generic RGB #086</Name>
+   <Universe>0</Universe>
+   <Address>255</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>86</ID>
+   <Name>Generic RGB #087</Name>
+   <Universe>0</Universe>
+   <Address>258</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>87</ID>
+   <Name>Generic RGB #088</Name>
+   <Universe>0</Universe>
+   <Address>261</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>88</ID>
+   <Name>Generic RGB #089</Name>
+   <Universe>0</Universe>
+   <Address>264</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>89</ID>
+   <Name>Generic RGB #090</Name>
+   <Universe>0</Universe>
+   <Address>267</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>90</ID>
+   <Name>Generic RGB #091</Name>
+   <Universe>0</Universe>
+   <Address>270</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>91</ID>
+   <Name>Generic RGB #092</Name>
+   <Universe>0</Universe>
+   <Address>273</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>92</ID>
+   <Name>Generic RGB #093</Name>
+   <Universe>0</Universe>
+   <Address>276</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>93</ID>
+   <Name>Generic RGB #094</Name>
+   <Universe>0</Universe>
+   <Address>279</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>94</ID>
+   <Name>Generic RGB #095</Name>
+   <Universe>0</Universe>
+   <Address>282</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>95</ID>
+   <Name>Generic RGB #096</Name>
+   <Universe>0</Universe>
+   <Address>285</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>96</ID>
+   <Name>Generic RGB #097</Name>
+   <Universe>0</Universe>
+   <Address>288</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>97</ID>
+   <Name>Generic RGB #098</Name>
+   <Universe>0</Universe>
+   <Address>291</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>98</ID>
+   <Name>Generic RGB #099</Name>
+   <Universe>0</Universe>
+   <Address>294</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>99</ID>
+   <Name>Generic RGB #100</Name>
+   <Universe>0</Universe>
+   <Address>297</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>100</ID>
+   <Name>Generic RGB #101</Name>
+   <Universe>0</Universe>
+   <Address>300</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>101</ID>
+   <Name>Generic RGB #102</Name>
+   <Universe>0</Universe>
+   <Address>303</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>102</ID>
+   <Name>Generic RGB #103</Name>
+   <Universe>0</Universe>
+   <Address>306</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>103</ID>
+   <Name>Generic RGB #104</Name>
+   <Universe>0</Universe>
+   <Address>309</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>104</ID>
+   <Name>Generic RGB #105</Name>
+   <Universe>0</Universe>
+   <Address>312</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>105</ID>
+   <Name>Generic RGB #106</Name>
+   <Universe>0</Universe>
+   <Address>315</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>106</ID>
+   <Name>Generic RGB #107</Name>
+   <Universe>0</Universe>
+   <Address>318</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>107</ID>
+   <Name>Generic RGB #108</Name>
+   <Universe>0</Universe>
+   <Address>321</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>108</ID>
+   <Name>Generic RGB #109</Name>
+   <Universe>0</Universe>
+   <Address>324</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>109</ID>
+   <Name>Generic RGB #110</Name>
+   <Universe>0</Universe>
+   <Address>327</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>110</ID>
+   <Name>Generic RGB #111</Name>
+   <Universe>0</Universe>
+   <Address>330</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>111</ID>
+   <Name>Generic RGB #112</Name>
+   <Universe>0</Universe>
+   <Address>333</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>112</ID>
+   <Name>Generic RGB #113</Name>
+   <Universe>0</Universe>
+   <Address>336</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>113</ID>
+   <Name>Generic RGB #114</Name>
+   <Universe>0</Universe>
+   <Address>339</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>114</ID>
+   <Name>Generic RGB #115</Name>
+   <Universe>0</Universe>
+   <Address>342</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>115</ID>
+   <Name>Generic RGB #116</Name>
+   <Universe>0</Universe>
+   <Address>345</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>116</ID>
+   <Name>Generic RGB #117</Name>
+   <Universe>0</Universe>
+   <Address>348</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>117</ID>
+   <Name>Generic RGB #118</Name>
+   <Universe>0</Universe>
+   <Address>351</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>118</ID>
+   <Name>Generic RGB #119</Name>
+   <Universe>0</Universe>
+   <Address>354</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>119</ID>
+   <Name>Generic RGB #120</Name>
+   <Universe>0</Universe>
+   <Address>357</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>120</ID>
+   <Name>Generic RGB #121</Name>
+   <Universe>0</Universe>
+   <Address>360</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>121</ID>
+   <Name>Generic RGB #122</Name>
+   <Universe>0</Universe>
+   <Address>363</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>122</ID>
+   <Name>Generic RGB #123</Name>
+   <Universe>0</Universe>
+   <Address>366</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>123</ID>
+   <Name>Generic RGB #124</Name>
+   <Universe>0</Universe>
+   <Address>369</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>124</ID>
+   <Name>Generic RGB #125</Name>
+   <Universe>0</Universe>
+   <Address>372</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>125</ID>
+   <Name>Generic RGB #126</Name>
+   <Universe>0</Universe>
+   <Address>375</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>126</ID>
+   <Name>Generic RGB #127</Name>
+   <Universe>0</Universe>
+   <Address>378</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>127</ID>
+   <Name>Generic RGB #128</Name>
+   <Universe>0</Universe>
+   <Address>381</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>128</ID>
+   <Name>Generic RGB #129</Name>
+   <Universe>0</Universe>
+   <Address>384</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>129</ID>
+   <Name>Generic RGB #130</Name>
+   <Universe>0</Universe>
+   <Address>387</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>130</ID>
+   <Name>Generic RGB #131</Name>
+   <Universe>0</Universe>
+   <Address>390</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>131</ID>
+   <Name>Generic RGB #132</Name>
+   <Universe>0</Universe>
+   <Address>393</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>132</ID>
+   <Name>Generic RGB #133</Name>
+   <Universe>0</Universe>
+   <Address>396</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>133</ID>
+   <Name>Generic RGB #134</Name>
+   <Universe>0</Universe>
+   <Address>399</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>134</ID>
+   <Name>Generic RGB #135</Name>
+   <Universe>0</Universe>
+   <Address>402</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>135</ID>
+   <Name>Generic RGB #136</Name>
+   <Universe>0</Universe>
+   <Address>405</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>136</ID>
+   <Name>Generic RGB #137</Name>
+   <Universe>0</Universe>
+   <Address>408</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>137</ID>
+   <Name>Generic RGB #138</Name>
+   <Universe>0</Universe>
+   <Address>411</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>138</ID>
+   <Name>Generic RGB #139</Name>
+   <Universe>0</Universe>
+   <Address>414</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>139</ID>
+   <Name>Generic RGB #140</Name>
+   <Universe>0</Universe>
+   <Address>417</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>140</ID>
+   <Name>Generic RGB #141</Name>
+   <Universe>0</Universe>
+   <Address>420</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>141</ID>
+   <Name>Generic RGB #142</Name>
+   <Universe>0</Universe>
+   <Address>423</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>142</ID>
+   <Name>Generic RGB #143</Name>
+   <Universe>0</Universe>
+   <Address>426</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>143</ID>
+   <Name>Generic RGB #144</Name>
+   <Universe>0</Universe>
+   <Address>429</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>144</ID>
+   <Name>Generic RGB #145</Name>
+   <Universe>0</Universe>
+   <Address>432</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>145</ID>
+   <Name>Generic RGB #146</Name>
+   <Universe>0</Universe>
+   <Address>435</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>146</ID>
+   <Name>Generic RGB #147</Name>
+   <Universe>0</Universe>
+   <Address>438</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>147</ID>
+   <Name>Generic RGB #148</Name>
+   <Universe>0</Universe>
+   <Address>441</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>148</ID>
+   <Name>Generic RGB #149</Name>
+   <Universe>0</Universe>
+   <Address>444</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>149</ID>
+   <Name>Generic RGB #150</Name>
+   <Universe>0</Universe>
+   <Address>447</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>150</ID>
+   <Name>Generic RGB #151</Name>
+   <Universe>0</Universe>
+   <Address>450</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>151</ID>
+   <Name>Generic RGB #152</Name>
+   <Universe>0</Universe>
+   <Address>453</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>152</ID>
+   <Name>Generic RGB #153</Name>
+   <Universe>0</Universe>
+   <Address>456</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>153</ID>
+   <Name>Generic RGB #154</Name>
+   <Universe>0</Universe>
+   <Address>459</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>154</ID>
+   <Name>Generic RGB #155</Name>
+   <Universe>0</Universe>
+   <Address>462</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>155</ID>
+   <Name>Generic RGB #156</Name>
+   <Universe>0</Universe>
+   <Address>465</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>156</ID>
+   <Name>Generic RGB #157</Name>
+   <Universe>0</Universe>
+   <Address>468</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>157</ID>
+   <Name>Generic RGB #158</Name>
+   <Universe>0</Universe>
+   <Address>471</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>158</ID>
+   <Name>Generic RGB #159</Name>
+   <Universe>0</Universe>
+   <Address>474</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>159</ID>
+   <Name>Generic RGB #160</Name>
+   <Universe>0</Universe>
+   <Address>477</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>160</ID>
+   <Name>Generic RGB #161</Name>
+   <Universe>0</Universe>
+   <Address>480</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>161</ID>
+   <Name>Generic RGB #162</Name>
+   <Universe>0</Universe>
+   <Address>483</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>162</ID>
+   <Name>Generic RGB #163</Name>
+   <Universe>0</Universe>
+   <Address>486</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>163</ID>
+   <Name>Generic RGB #164</Name>
+   <Universe>0</Universe>
+   <Address>489</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>164</ID>
+   <Name>Generic RGB #165</Name>
+   <Universe>0</Universe>
+   <Address>492</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>165</ID>
+   <Name>Generic RGB #166</Name>
+   <Universe>0</Universe>
+   <Address>495</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>166</ID>
+   <Name>Generic RGB #167</Name>
+   <Universe>0</Universe>
+   <Address>498</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>167</ID>
+   <Name>Generic RGB #168</Name>
+   <Universe>0</Universe>
+   <Address>501</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>168</ID>
+   <Name>Generic RGB #169</Name>
+   <Universe>0</Universe>
+   <Address>504</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic RGB</Model>
+   <Mode>GRB</Mode>
+   <ID>169</ID>
+   <Name>Generic RGB #170</Name>
+   <Universe>0</Universe>
+   <Address>507</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <FixtureGroup ID="0">
+   <Name>Blitze</Name>
+   <Size X="180" Y="1"/>
+   <Head X="0" Y="0" Fixture="0">0</Head>
+   <Head X="1" Y="0" Fixture="1">0</Head>
+   <Head X="2" Y="0" Fixture="2">0</Head>
+   <Head X="3" Y="0" Fixture="3">0</Head>
+   <Head X="4" Y="0" Fixture="4">0</Head>
+   <Head X="5" Y="0" Fixture="5">0</Head>
+   <Head X="6" Y="0" Fixture="6">0</Head>
+   <Head X="7" Y="0" Fixture="7">0</Head>
+   <Head X="8" Y="0" Fixture="8">0</Head>
+   <Head X="9" Y="0" Fixture="9">0</Head>
+   <Head X="10" Y="0" Fixture="10">0</Head>
+   <Head X="11" Y="0" Fixture="11">0</Head>
+   <Head X="12" Y="0" Fixture="12">0</Head>
+   <Head X="13" Y="0" Fixture="13">0</Head>
+   <Head X="14" Y="0" Fixture="14">0</Head>
+   <Head X="15" Y="0" Fixture="15">0</Head>
+   <Head X="16" Y="0" Fixture="16">0</Head>
+   <Head X="17" Y="0" Fixture="17">0</Head>
+   <Head X="18" Y="0" Fixture="18">0</Head>
+   <Head X="19" Y="0" Fixture="19">0</Head>
+   <Head X="20" Y="0" Fixture="20">0</Head>
+   <Head X="21" Y="0" Fixture="21">0</Head>
+   <Head X="22" Y="0" Fixture="22">0</Head>
+   <Head X="23" Y="0" Fixture="23">0</Head>
+   <Head X="24" Y="0" Fixture="24">0</Head>
+   <Head X="25" Y="0" Fixture="25">0</Head>
+   <Head X="26" Y="0" Fixture="26">0</Head>
+   <Head X="27" Y="0" Fixture="27">0</Head>
+   <Head X="28" Y="0" Fixture="28">0</Head>
+   <Head X="29" Y="0" Fixture="29">0</Head>
+   <Head X="30" Y="0" Fixture="30">0</Head>
+   <Head X="31" Y="0" Fixture="31">0</Head>
+   <Head X="32" Y="0" Fixture="32">0</Head>
+   <Head X="33" Y="0" Fixture="33">0</Head>
+   <Head X="34" Y="0" Fixture="34">0</Head>
+   <Head X="35" Y="0" Fixture="35">0</Head>
+   <Head X="36" Y="0" Fixture="36">0</Head>
+   <Head X="37" Y="0" Fixture="37">0</Head>
+   <Head X="38" Y="0" Fixture="38">0</Head>
+   <Head X="39" Y="0" Fixture="39">0</Head>
+   <Head X="40" Y="0" Fixture="40">0</Head>
+   <Head X="41" Y="0" Fixture="41">0</Head>
+   <Head X="42" Y="0" Fixture="42">0</Head>
+   <Head X="43" Y="0" Fixture="43">0</Head>
+   <Head X="44" Y="0" Fixture="44">0</Head>
+   <Head X="45" Y="0" Fixture="45">0</Head>
+   <Head X="46" Y="0" Fixture="46">0</Head>
+   <Head X="47" Y="0" Fixture="47">0</Head>
+   <Head X="48" Y="0" Fixture="48">0</Head>
+   <Head X="49" Y="0" Fixture="49">0</Head>
+   <Head X="50" Y="0" Fixture="50">0</Head>
+   <Head X="51" Y="0" Fixture="51">0</Head>
+   <Head X="52" Y="0" Fixture="52">0</Head>
+   <Head X="53" Y="0" Fixture="53">0</Head>
+   <Head X="54" Y="0" Fixture="54">0</Head>
+   <Head X="55" Y="0" Fixture="55">0</Head>
+   <Head X="56" Y="0" Fixture="56">0</Head>
+   <Head X="57" Y="0" Fixture="57">0</Head>
+   <Head X="58" Y="0" Fixture="58">0</Head>
+   <Head X="59" Y="0" Fixture="59">0</Head>
+   <Head X="60" Y="0" Fixture="60">0</Head>
+   <Head X="61" Y="0" Fixture="61">0</Head>
+   <Head X="62" Y="0" Fixture="62">0</Head>
+   <Head X="63" Y="0" Fixture="63">0</Head>
+   <Head X="64" Y="0" Fixture="64">0</Head>
+   <Head X="65" Y="0" Fixture="65">0</Head>
+   <Head X="66" Y="0" Fixture="66">0</Head>
+   <Head X="67" Y="0" Fixture="67">0</Head>
+   <Head X="68" Y="0" Fixture="68">0</Head>
+   <Head X="69" Y="0" Fixture="69">0</Head>
+   <Head X="70" Y="0" Fixture="70">0</Head>
+   <Head X="71" Y="0" Fixture="71">0</Head>
+   <Head X="72" Y="0" Fixture="72">0</Head>
+   <Head X="73" Y="0" Fixture="73">0</Head>
+   <Head X="74" Y="0" Fixture="74">0</Head>
+   <Head X="75" Y="0" Fixture="75">0</Head>
+   <Head X="76" Y="0" Fixture="76">0</Head>
+   <Head X="77" Y="0" Fixture="77">0</Head>
+   <Head X="78" Y="0" Fixture="78">0</Head>
+   <Head X="79" Y="0" Fixture="79">0</Head>
+   <Head X="80" Y="0" Fixture="80">0</Head>
+   <Head X="81" Y="0" Fixture="81">0</Head>
+   <Head X="82" Y="0" Fixture="82">0</Head>
+   <Head X="83" Y="0" Fixture="83">0</Head>
+   <Head X="84" Y="0" Fixture="84">0</Head>
+   <Head X="85" Y="0" Fixture="85">0</Head>
+   <Head X="86" Y="0" Fixture="86">0</Head>
+   <Head X="87" Y="0" Fixture="87">0</Head>
+   <Head X="88" Y="0" Fixture="88">0</Head>
+   <Head X="89" Y="0" Fixture="89">0</Head>
+   <Head X="90" Y="0" Fixture="90">0</Head>
+   <Head X="91" Y="0" Fixture="91">0</Head>
+   <Head X="92" Y="0" Fixture="92">0</Head>
+   <Head X="93" Y="0" Fixture="93">0</Head>
+   <Head X="94" Y="0" Fixture="94">0</Head>
+   <Head X="95" Y="0" Fixture="95">0</Head>
+   <Head X="96" Y="0" Fixture="96">0</Head>
+   <Head X="97" Y="0" Fixture="97">0</Head>
+   <Head X="98" Y="0" Fixture="98">0</Head>
+   <Head X="99" Y="0" Fixture="99">0</Head>
+   <Head X="100" Y="0" Fixture="100">0</Head>
+   <Head X="101" Y="0" Fixture="101">0</Head>
+   <Head X="102" Y="0" Fixture="102">0</Head>
+   <Head X="103" Y="0" Fixture="103">0</Head>
+   <Head X="104" Y="0" Fixture="104">0</Head>
+   <Head X="105" Y="0" Fixture="105">0</Head>
+   <Head X="106" Y="0" Fixture="106">0</Head>
+   <Head X="107" Y="0" Fixture="107">0</Head>
+   <Head X="108" Y="0" Fixture="108">0</Head>
+   <Head X="109" Y="0" Fixture="109">0</Head>
+   <Head X="110" Y="0" Fixture="110">0</Head>
+   <Head X="111" Y="0" Fixture="111">0</Head>
+   <Head X="112" Y="0" Fixture="112">0</Head>
+   <Head X="113" Y="0" Fixture="113">0</Head>
+   <Head X="114" Y="0" Fixture="114">0</Head>
+   <Head X="115" Y="0" Fixture="115">0</Head>
+   <Head X="116" Y="0" Fixture="116">0</Head>
+   <Head X="117" Y="0" Fixture="117">0</Head>
+   <Head X="118" Y="0" Fixture="118">0</Head>
+   <Head X="119" Y="0" Fixture="119">0</Head>
+   <Head X="120" Y="0" Fixture="120">0</Head>
+   <Head X="121" Y="0" Fixture="121">0</Head>
+   <Head X="122" Y="0" Fixture="122">0</Head>
+   <Head X="123" Y="0" Fixture="123">0</Head>
+   <Head X="124" Y="0" Fixture="124">0</Head>
+   <Head X="125" Y="0" Fixture="125">0</Head>
+   <Head X="126" Y="0" Fixture="126">0</Head>
+   <Head X="127" Y="0" Fixture="127">0</Head>
+   <Head X="128" Y="0" Fixture="128">0</Head>
+   <Head X="129" Y="0" Fixture="129">0</Head>
+   <Head X="130" Y="0" Fixture="130">0</Head>
+   <Head X="131" Y="0" Fixture="131">0</Head>
+   <Head X="132" Y="0" Fixture="132">0</Head>
+   <Head X="133" Y="0" Fixture="133">0</Head>
+   <Head X="134" Y="0" Fixture="134">0</Head>
+   <Head X="135" Y="0" Fixture="135">0</Head>
+   <Head X="136" Y="0" Fixture="136">0</Head>
+   <Head X="137" Y="0" Fixture="137">0</Head>
+   <Head X="138" Y="0" Fixture="138">0</Head>
+   <Head X="139" Y="0" Fixture="139">0</Head>
+   <Head X="140" Y="0" Fixture="140">0</Head>
+   <Head X="141" Y="0" Fixture="141">0</Head>
+   <Head X="142" Y="0" Fixture="142">0</Head>
+   <Head X="143" Y="0" Fixture="143">0</Head>
+   <Head X="144" Y="0" Fixture="144">0</Head>
+   <Head X="145" Y="0" Fixture="145">0</Head>
+   <Head X="146" Y="0" Fixture="146">0</Head>
+   <Head X="147" Y="0" Fixture="147">0</Head>
+   <Head X="148" Y="0" Fixture="148">0</Head>
+   <Head X="149" Y="0" Fixture="149">0</Head>
+   <Head X="150" Y="0" Fixture="150">0</Head>
+   <Head X="151" Y="0" Fixture="151">0</Head>
+   <Head X="152" Y="0" Fixture="152">0</Head>
+   <Head X="153" Y="0" Fixture="153">0</Head>
+   <Head X="154" Y="0" Fixture="154">0</Head>
+   <Head X="155" Y="0" Fixture="155">0</Head>
+   <Head X="156" Y="0" Fixture="156">0</Head>
+   <Head X="157" Y="0" Fixture="157">0</Head>
+   <Head X="158" Y="0" Fixture="158">0</Head>
+   <Head X="159" Y="0" Fixture="159">0</Head>
+   <Head X="160" Y="0" Fixture="160">0</Head>
+   <Head X="161" Y="0" Fixture="161">0</Head>
+   <Head X="162" Y="0" Fixture="162">0</Head>
+   <Head X="163" Y="0" Fixture="163">0</Head>
+   <Head X="164" Y="0" Fixture="164">0</Head>
+   <Head X="165" Y="0" Fixture="165">0</Head>
+   <Head X="166" Y="0" Fixture="166">0</Head>
+   <Head X="167" Y="0" Fixture="167">0</Head>
+   <Head X="168" Y="0" Fixture="168">0</Head>
+   <Head X="169" Y="0" Fixture="169">0</Head>
+  </FixtureGroup>
+  <Function ID="0" Type="RGBMatrix" Name="Rot">
+   <Speed FadeIn="50" FadeOut="10" Duration="550"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Plain"/>
+   <MonoColor>4294901760</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function ID="1" Type="RGBMatrix" Name="Blau">
+   <Speed FadeIn="50" FadeOut="10" Duration="550"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Plain"/>
+   <MonoColor>4278190335</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+  <Function ID="2" Type="RGBMatrix" Name="Grün">
+   <Speed FadeIn="50" FadeOut="10" Duration="550"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm Type="Plain"/>
+   <MonoColor>4278255360</MonoColor>
+   <ControlMode>RGB</ControlMode>
+   <FixtureGroup>0</FixtureGroup>
+  </Function>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <Slider Caption="slider3" ID="0" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="180" Y="135" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0"/>
+    <Playback>
+     <Function>0</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="slider2" ID="1" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="245" Y="135" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0"/>
+    <Playback>
+     <Function>2</Function>
+    </Playback>
+   </Slider>
+   <Slider Caption="slider1" ID="2" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="True" X="310" Y="135" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None">Playback</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0"/>
+    <Playback>
+     <Function>1</Function>
+    </Playback>
+   </Slider>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>
