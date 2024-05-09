@@ -7,6 +7,7 @@ public class ScreenColorPicker {
     private Robot robot;
     private JFrame frame;
     private JLabel colorLabel;
+    private JPanel colorDisplayPanel;  // Panel to display the picked color
     private JButton resetButton, storeButton;
     private JTextField xField, yField;
     private ArrayList<Point> coordinates;
@@ -22,6 +23,8 @@ public class ScreenColorPicker {
         robot = new Robot();
         frame = new JFrame("Screen Color Picker");
         colorLabel = new JLabel("RGB Value: ");
+        colorDisplayPanel = new JPanel();  // Initialize the color display panel
+        colorDisplayPanel.setPreferredSize(new Dimension(100, 100));  // Set size of the color panel
         resetButton = new JButton("Reset");
         storeButton = new JButton("Store Coordinates");
         xField = new JTextField(5);
@@ -30,14 +33,16 @@ public class ScreenColorPicker {
         qlcPlusAPI = new QLCPlusAPI();  // Create an instance of QLCPlusAPI
 
         frame.setLayout(new FlowLayout());
-        frame.add(colorLabel);
+
         frame.add(new JLabel("X:"));
         frame.add(xField);
         frame.add(new JLabel("Y:"));
         frame.add(yField);
         frame.add(storeButton);
         frame.add(resetButton);
-        frame.setSize(300, 150);
+        frame.add(colorLabel);
+        frame.add(colorDisplayPanel);  // Add color panel to the frame
+        frame.setSize(750, 250);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
 
@@ -52,23 +57,27 @@ public class ScreenColorPicker {
     private void updateColorDisplay() {
         Point point = MouseInfo.getPointerInfo().getLocation();
         Color color = robot.getPixelColor(x, y);
-        
+
+        colorDisplayPanel.setBackground(color);
+        colorDisplayPanel.repaint();  // Repaint the panel to show the new color
+
         // Formatting the message for QLC+ which assumes "channel|value" format
         messagered = "0|" + color.getRed();  // Assuming channel 0 for red
         messagegreen = "1|" + color.getGreen();  // Assuming channel 1 for green
         messageblue = "2|" + color.getBlue();  // Assuming channel 2 for blue
-        
+
         qlcPlusAPI.sendMessage(messagered);  // Send the red value via WebSocket
         qlcPlusAPI.sendMessage(messagegreen);  // Send the green value via WebSocket
         qlcPlusAPI.sendMessage(messageblue);  // Send the blue value via WebSocket
 
-        
-        
+
+
         colorLabel.setText("Current Position: " + point.toString() + " RGB: " + color.getRed() + ", " + color.getGreen() + ", " + color.getBlue());
     }
 
     private void resetDisplay() {
         colorLabel.setText("RGB Value: ");
+        colorDisplayPanel.setBackground(null);  // Reset the color display panel
         coordinates.clear();
     }
 
