@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="HighVoltage_DMX_Blitze:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/HighVoltage_DMX_Blitze_jar</output-path>
+    <root id="archive" name="HighVoltage_DMX_Blitze.jar">
+      <element id="module-output" name="HighVoltage_DMX_Blitze" />
+    </root>
+  </artifact>
+</component>
